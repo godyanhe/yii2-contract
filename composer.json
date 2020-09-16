@@ -1,0 +1,21 @@
+{
+    "name": "yanhe/yii2-contract",
+    "description": "电子合约签名插件",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "I’m yanhe",
+            "email": "790162770@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "contract\\sign\\": ""
+        }
+    }
+}
