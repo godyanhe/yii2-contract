@@ -27,10 +27,10 @@ class ContractAssets extends AssetBundle {
         'js/jquery.min.js',
         'js/jquery-ui.min.js',
         'js/html2canvas.min.js',
-        'js/download.js?v=11',
-        'js/convert.js?v=7',
+        'js/download.js',
+        'js/convert.js',
         'js/jSignature.min.js',
-        'js/modalBox.js?v=4',
+        'js/modalBox.js',
     ];
 
     /**
@@ -38,7 +38,7 @@ class ContractAssets extends AssetBundle {
      * @var array
      */
     public $css = [
-        'css/modalBox.css?v=18',
+        'css/modalBox.css',
     ];
 
 
