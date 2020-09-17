@@ -35,15 +35,13 @@ Once the extension is installed, simply use it in your code by  :
 params
 ------
 
-size 签名大小 单位px
+size 签名大小 以百分比为单位
 
-top 位置y轴 单位px
+top 位置y轴 以百分比为单位
 
-left 位置x轴 单位px
+left 位置x轴 以百分比为单位
 
 image 合约图片
-
-text 条款文字
 
 url 接受合成图片流的方法
 
