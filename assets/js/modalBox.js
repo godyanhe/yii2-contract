@@ -8,8 +8,8 @@
     /*获得关闭按钮*/
     modalBox.closeBtn = document.getElementById("closeBtn");
 
-    /*获得确认按钮*/
-    modalBox.yesBtn = document.getElementById("yesBtn");
+    /*获得关闭按钮*/
+    modalBox.yesBtn = document.getElementById("yes");
 
     /*模态框显示*/
     modalBox.show = function() {

@@ -1,6 +1,13 @@
 $(function() {
     var $sigdiv = $("#signature");
-    $sigdiv.jSignature(); // 初始化jSignature插件.
+    var arguments = {
+        width: '900px',
+        height: '300px',
+        cssclass: 'zx11',
+        signatureLine: false,//去除默认画布上那条横线
+        lineWidth: '5'
+    };
+    $sigdiv.jSignature(arguments); // 初始化jSignature插件.
     $("#yes").click(function(){
         //将画布内容转换为图片
         var datapair = $sigdiv.jSignature("getData", "image");

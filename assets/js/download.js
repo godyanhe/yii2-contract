@@ -7,9 +7,9 @@ function BaseImage(imgFile) {//图片1上传的函数方法
     };
     filereader.readAsDataURL(f);//读取图片（将插入的图片读取显示出来）
 }
-// $(function() {
-//     $( ".drg" ).draggable();//这里使用jquery ui的拖拽方法  draggable()；作用是可以让图片2进行拖拽
-// });
+$(function() {
+    $( ".drg" ).draggable();//这里使用jquery ui的拖拽方法  draggable()；作用是可以让图片2进行拖拽
+});
 function down(){//这个函数是点击下载执行的方法
     html2canvas($(".whole"),{ //这是使用了html2canvas这个插件的方法，将class为whole的整个节点绘制成画布
         onrendered:function(canvas){  //画布绘制完成后执行下面内容，function内的canvas这个参数就是已经被绘制成画布
